@@ -25,7 +25,9 @@ const UsersRouter = require('./routes/Users');
 
 app.use("/auth",UsersRouter);
 
-
+//Likes router
+const LikesRouter = require("./routes/Likes");
+app.use("/likes",LikesRouter)
 
 
 
